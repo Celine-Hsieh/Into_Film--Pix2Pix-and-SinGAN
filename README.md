@@ -38,8 +38,9 @@ Using pix2pix and SinGAN to get into the movie
       > For the model trained by Pix2Pix, the image is mainly brown at the beginning. That is, the mixture of the three primary colors (red, yellow, and blue) in the painting becomes brown.
 
       > After 45 epochs, it can be seen that the image does not change much. During the training and learning process, some pictures are obviously blurred.
-      
-![image](https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png)
+<h1>
+  <img src="https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png" width="200" height="300"/>
+</h1>
 
    2. Model Testing
       ![image](https://user-images.githubusercontent.com/69034494/163203515-3dcb79db-a799-449f-b30c-f0e4c118a32d.png)
