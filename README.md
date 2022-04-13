@@ -51,10 +51,9 @@ Using pix2pix and SinGAN to get into the movie
       > For the model trained by SinGAN, you need to put a picture of Training, Input and Mask before use.
 
       >  To generate from any starting random samples first run RandomSamples :
-      ** python random_samples.py --input_name <training_image> --mode random_samples --gen_start_scale <start scale> **
   
-<pre><code>This is a code block.
-</code></pre>
+      <pre><code> python random_samples.py --input_name <training_image> --mode random_samples --gen_start_scale <start scale>
+      </code></pre>
    
    2. 
 
