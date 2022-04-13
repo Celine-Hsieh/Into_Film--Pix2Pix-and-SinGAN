@@ -53,12 +53,12 @@ Using pix2pix and SinGAN to get into the movie
 
       > To generate from any starting random samples first run RandomSamples :
   
-      <pre><code>  python random_samples.py --input_name <training_image> --mode random_samples --gen_start_scale <start scale>
+      <pre><code>  python random_samples.py --input_name [training_image] --mode random_samples --gen_start_scale [start scale]
       </code></pre>
       
-      > It will output several RandomSamples images, then run Harmonization and fill in the scale value
-      
-        ``python harmonization.py --input_name <training_image> --ref_name <pasted_reference_image> --harmonization_start_scale <scale>``
+      > It will output several RandomSamples images, then run Harmonization and fill in the scale value      
+      <pre><code> python harmonization.py --input_name <training_image> --ref_name <pasted_reference_image> --harmonization_start_scale <scale>
+      </code></pre>
       
       
       <h1>
