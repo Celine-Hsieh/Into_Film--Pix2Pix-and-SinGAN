@@ -8,7 +8,7 @@ Using pix2pix and SinGAN to get into the movie
 
  * pix2pix can be used for a wide range of tasks, including compositing photos from tagged maps, generating color photos from black and white images, converting Google Maps photos to satellite aerial images, or converting sketches to photos.
 
-![image](https://user-images.githubusercontent.com/69034494/163197685-38160454-dd39-4fd5-abc5-7da9f85255e2.png)
+  ![image](https://user-images.githubusercontent.com/69034494/163197685-38160454-dd39-4fd5-abc5-7da9f85255e2.png)
 
 
 ## SinGAN
@@ -17,7 +17,7 @@ Using pix2pix and SinGAN to get into the movie
 
  * In general, training GANs to generate images requires at least thousands of training data to have good results. SinGAN can train a generative model with only a single natural image.
 
-![image](https://user-images.githubusercontent.com/69034494/163198062-c7fc22c6-34ee-4e69-8b20-378ae6cb03d0.png)
+  ![image](https://user-images.githubusercontent.com/69034494/163198062-c7fc22c6-34ee-4e69-8b20-378ae6cb03d0.png)
 
 ## Purpose
 
@@ -38,9 +38,9 @@ Using pix2pix and SinGAN to get into the movie
       > For the model trained by Pix2Pix, the image is mainly brown at the beginning. That is, the mixture of the three primary colors (red, yellow, and blue) in the painting becomes brown.
 
       > After 45 epochs, it can be seen that the image does not change much. During the training and learning process, some pictures are obviously blurred.
-<h1>
-  <img src="https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png" width="350" height="400"/>
-</h1>
+    <h1>
+      <img src="https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png" width="350" height="400"/>
+   </h1>
 
    2. Model Testing
       ![image](https://user-images.githubusercontent.com/69034494/163203515-3dcb79db-a799-449f-b30c-f0e4c118a32d.png)
@@ -59,15 +59,15 @@ Using pix2pix and SinGAN to get into the movie
       > It will output several RandomSamples images, then run Harmonization and fill in the scale value
       <pre><code>     python harmonization.py --input_name <training_image> --ref_name <pasted_reference_image> --harmonization_start_scale <scale>
       </code></pre>
-   <h1>
-  <img src="https://user-images.githubusercontent.com/69034494/163206395-6a8456c9-de51-4f8b-8630-9537d701ddc4.png" width="350" height="400"/>
-</h1>
+    <h1>
+      <img src="https://user-images.githubusercontent.com/69034494/163206395-6a8456c9-de51-4f8b-8630-9537d701ddc4.png" width="350" height="400"/>
+    </h1>
 
    2. Output
-   <h1>
-  <img src="https://user-images.githubusercontent.com/69034494/163206632-4d697ed9-4c1b-4536-8607-8621dd63c50e.png" width="800" height="400"/>
-  <img src="https://user-images.githubusercontent.com/69034494/163206701-d81022d4-b4c2-4f93-8889-efb75e5170db.png" width="800" height="400"/>
-</h1>
+     <h1>
+        <img src="https://user-images.githubusercontent.com/69034494/163206632-4d697ed9-4c1b-4536-8607-8621dd63c50e.png" width="800" height="400"/>
+        <img src="https://user-images.githubusercontent.com/69034494/163206701-d81022d4-b4c2-4f93-8889-efb75e5170db.png" width="800" height="300"/>
+    </h1>
 
 ## Conclusion
 
