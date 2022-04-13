@@ -52,7 +52,9 @@ Using pix2pix and SinGAN to get into the movie
 
       >  To generate from any starting random samples first run RandomSamples :
       ** python random_samples.py --input_name <training_image> --mode random_samples --gen_start_scale <start scale> **
-
+  
+<pre><code>This is a code block.
+</code></pre>
    
    2. 
 
