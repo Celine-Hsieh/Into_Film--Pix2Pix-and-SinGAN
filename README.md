@@ -13,7 +13,7 @@ Using pix2pix and SinGAN to get into the movie
 
 ## SinGAN
 
- * The second part of this research uses SinGAN for image fusion. The authors of this paper are from Technion and Google.
+ * The second part of this project uses SinGAN for image fusion. The authors of this paper are from Technion and Google.
 
  * In general, training GANs to generate images requires at least thousands of training data to have good results. SinGAN can train a generative model with only a single natural image.
 
