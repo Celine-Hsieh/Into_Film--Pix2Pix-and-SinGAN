@@ -66,7 +66,7 @@ Using pix2pix and SinGAN to get into the movie
 
    2. Output
      <h1>
-        <img src="https://user-images.githubusercontent.com/69034494/163206632-4d697ed9-4c1b-4536-8607-8621dd63c50e.png" width="800" height="400"/>
+        <img src="https://user-images.githubusercontent.com/69034494/163206632-4d697ed9-4c1b-4536-8607-8621dd63c50e.png" width="800" height="360"/>
         <img src="https://user-images.githubusercontent.com/69034494/163206701-d81022d4-b4c2-4f93-8889-efb75e5170db.png" width="800" height="300"/>
     </h1>
 
