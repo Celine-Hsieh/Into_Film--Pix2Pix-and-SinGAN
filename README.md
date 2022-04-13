@@ -58,7 +58,7 @@ Using pix2pix and SinGAN to get into the movie
       
       > It will output several RandomSamples images, then run Harmonization and fill in the scale value
       
-      __python harmonization.py --input_name <training_image> --ref_name <pasted_reference_image> --harmonization_start_scale <scale>__
+      'python harmonization.py --input_name <training_image> --ref_name <pasted_reference_image> --harmonization_start_scale <scale>'
       
       
       <h1>
