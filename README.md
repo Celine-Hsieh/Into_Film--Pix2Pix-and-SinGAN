@@ -39,7 +39,7 @@ Using pix2pix and SinGAN to get into the movie
 
       > After 45 epochs, it can be seen that the image does not change much. During the training and learning process, some pictures are obviously blurred.
 <h1>
-  <img src="https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png" width="300" height="400"/>
+  <img src="https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png" width="350" height="400"/>
 </h1>
 
    2. Model Testing
@@ -51,13 +51,29 @@ Using pix2pix and SinGAN to get into the movie
    
       > For the model trained by SinGAN, you need to put a picture of Training, Input and Mask before use.
 
-      >  To generate from any starting random samples first run RandomSamples :
+      > To generate from any starting random samples first run RandomSamples :
   
       <pre><code> python random_samples.py --input_name <training_image> --mode random_samples --gen_start_scale <start scale>
       </code></pre>
-   
-   2. 
+      
+      > It will output several RandomSamples images, then run Harmonization and fill in the scale value
+      <pre><code>     python harmonization.py --input_name <training_image> --ref_name <pasted_reference_image> --harmonization_start_scale <scale>
+      </code></pre>
+   <h1>
+  <img src="https://user-images.githubusercontent.com/69034494/163206395-6a8456c9-de51-4f8b-8630-9537d701ddc4.png" width="350" height="400"/>
+</h1>
 
+   2. Output
+   <h1>
+  <img src="https://user-images.githubusercontent.com/69034494/163206632-4d697ed9-4c1b-4536-8607-8621dd63c50e.png" width="800" height="400"/>
+  <img src="https://user-images.githubusercontent.com/69034494/163206701-d81022d4-b4c2-4f93-8889-efb75e5170db.png" width="800" height="400"/>
+</h1>
+
+## Conclusion
+
+At present, the experimental result is to make an image, and there are also attempts to make the training process into a gif file. In the future, it may be possible to capture every frame of the movie clip to form an animation file.
+
+I think that in the development and imagination of AI, adding real portraits to movies through AI model training can generate more imagination and interesting reactions for discussion.
 
 ## Reference
 
