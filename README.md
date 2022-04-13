@@ -40,7 +40,7 @@ Using pix2pix and SinGAN to get into the movie
       > After 45 epochs, it can be seen that the image does not change much. During the training and learning process, some pictures are obviously blurred.
       
       <h1>
-        <img src="https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png" width="350" height="400"/>
+        <img src="https://user-images.githubusercontent.com/69034494/163203221-be095c18-d9ba-4750-bc6e-cb60d471c92c.png" width="400" height="550"/>
       </h1>
 
    2. Model Testing
@@ -64,7 +64,7 @@ Using pix2pix and SinGAN to get into the movie
       
       
       <h1>
-        <img src="https://user-images.githubusercontent.com/69034494/163206395-6a8456c9-de51-4f8b-8630-9537d701ddc4.png" width="350" height="400"/>
+        <img src="https://user-images.githubusercontent.com/69034494/163206395-6a8456c9-de51-4f8b-8630-9537d701ddc4.png" width="500" height="550"/>
       </h1>
 
    2. Output
